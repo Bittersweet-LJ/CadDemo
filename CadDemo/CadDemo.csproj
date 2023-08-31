@@ -58,6 +58,10 @@
     <Compile Include="DatabaseLearn\Learning1_1.cs" />
     <Compile Include="DatabaseLearn\Learning1_2.cs" />
     <Compile Include="DatabaseLearn\Learning1_3.cs" />
+    <Compile Include="DatabaseLearn\Learning1_4.cs" />
+    <Compile Include="DatabaseLearn\Learning1_5.cs" />
+    <Compile Include="DatabaseLearn\Learning1_6.cs" />
+    <Compile Include="EntityLearn\Learning2_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
