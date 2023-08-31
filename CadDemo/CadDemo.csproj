@@ -62,6 +62,13 @@
     <Compile Include="DatabaseLearn\Learning1_5.cs" />
     <Compile Include="DatabaseLearn\Learning1_6.cs" />
     <Compile Include="EntityLearn\Learning2_1.cs" />
+    <Compile Include="EntityLearn\Learning2_3.cs" />
+    <Compile Include="EntityLearn\Learning2_4.cs" />
+    <Compile Include="EntityLearn\Learning2_5.cs" />
+    <Compile Include="EntityLearn\Learning2_6.cs" />
+    <Compile Include="EntityLearn\Learning2_7.cs" />
+    <Compile Include="EntityLearn\Learning2_8.cs" />
+    <Compile Include="EntityLearn\Learning2_9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
