@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="CadDemo.Views.MyUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CadDemo.Views"
+             mc:Ignorable="d" 
+             Width="100" Height="100"
+             d:DesignHeight="100" d:DesignWidth="200">
+    <Grid>
+        <TextBlock Text="哈哈哈" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Background="AliceBlue"/>
+    </Grid>
+</UserControl>
