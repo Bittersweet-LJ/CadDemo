@@ -34,20 +34,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="accoremgd">
-      <HintPath>..\..\..\..\CAD\AutoCAD\AutoCAD 2017\accoremgd.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2014\accoremgd.dll</HintPath>
     </Reference>
     <Reference Include="acdbmgd">
-      <HintPath>..\..\..\..\CAD\AutoCAD\AutoCAD 2017\acdbmgd.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2014\acdbmgd.dll</HintPath>
     </Reference>
     <Reference Include="acmgd">
-      <HintPath>..\..\..\..\CAD\AutoCAD\AutoCAD 2017\acmgd.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2014\acmgd.dll</HintPath>
     </Reference>
     <Reference Include="AdWindows">
-      <HintPath>..\..\..\..\CAD\AutoCAD\AutoCAD 2017\AdWindows.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2014\AdWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -71,8 +71,9 @@
     <Compile Include="DatabaseLearn\Learning1_4.cs" />
     <Compile Include="DatabaseLearn\Learning1_5.cs" />
     <Compile Include="DatabaseLearn\Learning1_6.cs" />
+    <Compile Include="DataProcessingLearn\Learning7_1.cs" />
+    <Compile Include="DataProcessingLearn\Learning7_2.cs" />
     <Compile Include="EntityLearn\Learning2_1.cs" />
-    <Compile Include="EntityLearn\Learning2_10.cs" />
     <Compile Include="EntityLearn\Learning2_3.cs" />
     <Compile Include="EntityLearn\Learning2_4.cs" />
     <Compile Include="EntityLearn\Learning2_5.cs" />
@@ -80,6 +81,14 @@
     <Compile Include="EntityLearn\Learning2_7.cs" />
     <Compile Include="EntityLearn\Learning2_8.cs" />
     <Compile Include="EntityLearn\Learning2_9.cs" />
+    <Compile Include="EventLearn\Learning4_1.cs" />
+    <Compile Include="EventLearn\Learning4_2.cs" />
+    <Compile Include="JigLearn\Learning5_1.cs" />
+    <Compile Include="JigLearn\Learning5_2.cs" />
+    <Compile Include="JigLearn\LineJig.cs" />
+    <Compile Include="JigLearn\PolyLineJig.cs" />
+    <Compile Include="OverruleLearn\Learning6_1.cs" />
+    <Compile Include="OverruleLearn\LineToPipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInterfaceLearn\Learning3_1.cs" />
     <Compile Include="UserInterfaceLearn\Learning3_2.cs" />
@@ -103,6 +112,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
